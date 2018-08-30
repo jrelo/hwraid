@@ -12,7 +12,7 @@ import pdb
 if sys.platform == 'win32':
 	import ctypes
 
-def_megaclipath = "/opt/MegaRAID/MegaCli/MegaCli64"
+def_megaclipath = "/usr/sbin/MegaCli64"
 
 # Non-Nagios Mode defaults
 nagiosmode = False
